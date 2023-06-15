@@ -12,4 +12,4 @@ Phase2:
 2. PayPal payment gateway
 3. Inventory capability
 4. Postgres database integration
-5. Deploy in AWS or Azure
+5. Deploy in AWS or Azure with containerization
