@@ -1,9 +1,7 @@
 # bio-degradable-e-commerce-application
 This is a biodegradable e-commerce application with a checkout feature and PayPal integration.
 
-**Modules:**
-
-Phase1: 
+**Phase1:**
 1. Basic Site - Responsive Design:
     - Ensure a mobile-friendly and user-friendly interface.
     - 
@@ -13,9 +11,7 @@ Phase1:
      
 3. Deploy in GitHub pages
 
-Phase2:
-Sure! Here is a simplified version:
-
+**Phase2:**
 1. User Management:
    - Allow users to register, log in, and manage their accounts.
 
