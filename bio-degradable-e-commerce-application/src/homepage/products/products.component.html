@@ -1,0 +1,36 @@
+<div class="container">
+    <h4 *ngIf="carouselId == 'productCarousel1'">FEATURED PRODUCTS</h4>
+    <h4 *ngIf="carouselId == 'productCarousel2'">MOST POPULAR</h4>
+</div>
+
+<div class="container">
+    <div [id]="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div *ngFor="let productGroup of productGroups; let i = index" class="carousel-item"
+                [class.active]="i === 0">
+                <div class="row">
+                    <div *ngFor="let product of productGroup" class="col-md-4 col-lg-2">
+                        <div class="card">
+                            <img [src]="product.image" class="card-img-top" [alt]="product.name" />
+                            <div class="card-body">
+                                <h5 class="card-title">{{ product.name }}</h5>
+                                <p class="card-text">{{ product.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a [attr.href]="'#' + carouselId" role="button" data-bs-slide="prev" class="carousel-control-prev"
+            [class.d-none]="carouselId !== 'productCarousel1' && carouselId !== 'productCarousel2'">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a [attr.href]="'#' + carouselId" role="button" data-bs-slide="next" class="carousel-control-next"
+            [class.d-none]="carouselId !== 'productCarousel1' && carouselId !== 'productCarousel2'">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</div>
