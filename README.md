@@ -1,43 +1,27 @@
-# bio-degradable-e-commerce-application
-This is a biodegradable e-commerce application with a checkout feature and PayPal integration.
+# BioDegradableECommerceApplication
 
-**Phase1:**
-1. Basic Site - Responsive Design:
-    - Ensure a mobile-friendly and user-friendly interface.
-    - 
-2. Product Catalog:
-   - Display products with descriptions, images, and prices.
-   - Include search and filtering options.
-     
-3. Deploy in GitHub pages
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-**Phase2:**
-1. User Management:
-   - Allow users to register, log in, and manage their accounts.
+## Development server
 
-2. Shopping Cart:
-   - Enable users to add, update, and remove products.
-   - Calculate the total cost and quantity.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-3. Checkout and Payment:
-   - Securely process payments and collect billing/shipping information.
+## Code scaffolding
 
-4. Order Management:
-   - Provide order history, tracking, and notifications.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-5. Inventory Management:
-   - Track product availability and send low-stock alerts.
+## Build
 
-6. Shipping and Fulfillment:
-   - Integrate with shipping providers for cost calculation and tracking.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-7. Security:
-   - Implement secure user authentication, encryption, and regular updates.
+## Running unit tests
 
-8. Performance:
-   - Optimize database queries, use caching, and perform load testing.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-9. Analytics and Reporting:
-    - Monitor user behaviour, generate sales reports, and track website performance.
+## Running end-to-end tests
 
-10. Deploy in AWS or Azure with containerization
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
