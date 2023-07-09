@@ -1,9 +1,7 @@
 /// <reference types="@angular/localize" />
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppComponent } from './app/app.component';
 
-import { HomePageModule } from './homepage/homepage.module';
-
-
-platformBrowserDynamic().bootstrapModule(HomePageModule)
+platformBrowserDynamic().bootstrapModule(AppComponent)
   .catch(err => console.error(err));
