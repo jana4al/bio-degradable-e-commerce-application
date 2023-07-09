@@ -7,13 +7,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LogoUserSectionComponent } from './logo-user-section/logo-user-section.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductsComponent } from './products/products.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
         declarations :[
             HomepageComponent,
             MenuComponent,
             CarouselComponent,
             LogoUserSectionComponent,
-            ProductsComponent
+            ProductsComponent,
+            FooterComponent
         ],
         imports:[BrowserModule, NgbModule,NgbCarouselModule],
         providers:[],
