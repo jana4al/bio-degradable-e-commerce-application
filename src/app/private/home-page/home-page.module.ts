@@ -15,6 +15,7 @@ import { HomePageRoutingModule } from "./home-page.routing.module";
         NgbCarousel,
         HomePageRoutingModule
     ],
+    bootstrap: [HomePageComponent],
     schemas: [
         CUSTOM_ELEMENTS_SCHEMA
     ]
